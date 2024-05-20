@@ -12,10 +12,10 @@ load_dotenv()
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"),)
 
 
-pg_host = "localhost"
-pg_database = "Promt"
-pg_user = "postgres"
-pg_password ="5522"
+pg_host = ""
+pg_database = ""
+pg_user = " "
+pg_password =" "
 
 conn = psycopg2.connect(
     host=pg_host,
