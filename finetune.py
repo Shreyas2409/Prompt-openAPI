@@ -1,10 +1,10 @@
 import psycopg2
 
 
-host = "localhost"
-database = "Promt"
-user = "postgres"
-password = "5522"
+host = ""
+database = ""
+user = ""
+password = ""
 
 
 conn = psycopg2.connect(
